@@ -16,7 +16,7 @@ export class CinemaComponent implements OnInit {
 
   public currentCinema: any;
 
-  private salles: any;
+  public salles: any;
 
   constructor(public cinemaService: CinemaService) {}
 
